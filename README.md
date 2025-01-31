@@ -1,50 +1,25 @@
-# React + TypeScript + Vite
+# VetPlanner - Sistema de Gestão para Clínicas Veterinárias 🐾
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 📌 Sobre o Projeto
 
-Currently, two official plugins are available:
+O **VetPlanner** é um sistema de gestão desenvolvido para clínicas veterinárias, com o objetivo de organizar e centralizar informações dos pets, como histórico médico, agendamentos e vacinação. O sistema visa oferecer uma solução acessível e eficiente para pequenas clínicas que enfrentam desafios na adoção de sistemas complexos e caros.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Tecnologias Utilizadas
 
-## Expanding the ESLint configuration
+- **Front-end:** React, JavaScript, Tailwind CSS
+- **Back-end:** PHP (Symfony)
+- **Banco de Dados:** PostgreSQL
+- **Versionamento:** Git
+- **Ferramentas de Desenvolvimento:** Visual Studio Code, Postman
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+## 🔧 Funcionalidades Principais
 
-- Configure the top-level `parserOptions` property like this:
+- 📋 **Cadastro de Pets e Tutores**
+- 📅 **Agendamento de Consultas e Serviços**
+- 🔔 **Notificações Automáticas de Compromissos**
+- 📊 **Geração de Relatórios Analíticos**
+- 🏥 **Histórico Médico dos Pets**
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+## 🎯 Objetivo do Projeto
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
-
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
-
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+Fornecer uma plataforma simples e intuitiva que permita que clínicas veterinárias gerenciem seus atendimentos e informações dos pets de forma eficiente, reduzindo erros operacionais e aumentando a satisfação dos clientes.
